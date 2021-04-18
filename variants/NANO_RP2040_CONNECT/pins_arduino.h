@@ -104,7 +104,7 @@ void _ontouch1200bps_();
 #define SPIWIFI_RESET	(NINA_RESETN)
 #define SPIWIFI 		(SPI1)
 
-#define WIRE_HOWMANY	(1)
+#define WIRE_HOWMANY	(1) // shouldnt this be 2?
 #define I2C_HW			(i2c0)
 #define I2C_SDA			(digitalPinToPinName(PIN_WIRE_SDA))
 #define I2C_SCL			(digitalPinToPinName(PIN_WIRE_SCL))
